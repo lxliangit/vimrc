@@ -201,7 +201,10 @@ set lbr
 set tw=500
 
 set ai "Auto indent
-set si "Smart indent
+" liuxingliang:
+" To avoid # moving to the beginning of line in insert mode
+" http://vim.wikia.com/wiki/Restoring_indent_after_typing_hash
+" set si "Smart indent
 set wrap "Wrap lines
 
 
